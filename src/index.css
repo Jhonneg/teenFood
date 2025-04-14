@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@layer components {
+  .btn-normal {
+    @apply bg-[#434343] py-2 px-4 text-[#b3b3b3] rounded-lg;
+  }
+  .btn-danger {
+    @apply bg-[#434343] py-2 px-4 text-[#ec221f] rounded-lg;
+  }
+}
