@@ -10,7 +10,9 @@ export default function Navbar() {
         className="h-20 w-full bg-[#1E1E1E] flex items-center
      justify-between"
       >
-        <img src={img} alt="logo" width={56} className="mx-2.5" />
+        <Link to="/">
+          <img src={img} alt="logo" width={56} className="mx-2.5" />
+        </Link>
         <div className="flex justify-between gap-24">
           <Link to="receitas" className="text-[#b3b3b3]">
             Receitas

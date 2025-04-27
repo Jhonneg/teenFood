@@ -1,6 +1,7 @@
 import React from "react";
 import hero from "/Teen.png";
 import Card from "./Card";
+import placeholder from "/placeholder.png";
 
 export default function Home() {
   return (
@@ -14,7 +15,26 @@ export default function Home() {
         <button className="btn-category">Lowcal X</button>
         <button className="btn-unselected">Lowcal X</button>
       </div>
-      <Card />
+      <div
+        className="flex justify-evenly 
+  items-center w-full h-screen gap-2"
+      >
+        <Card
+          img={placeholder}
+          nomeReceita={"Nome da receita 1"}
+          descrição={"Vegana, low card, etc"}
+        />
+        <Card
+          img={placeholder}
+          nomeReceita={"Nome da receita 1"}
+          descrição={"Vegana, low card, etc"}
+        />
+        <Card
+          img={placeholder}
+          nomeReceita={"Nome da receita 1"}
+          descrição={"Vegana, low card, etc"}
+        />
+      </div>
     </main>
   );
 }
