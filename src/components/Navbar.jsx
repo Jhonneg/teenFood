@@ -30,7 +30,7 @@ export default function Navbar() {
           <Link to="receitas" className="text-[#b3b3b3]">
             Receitas
           </Link>
-          <Link to="faq" className="text-[#b3b3b3]">
+          <Link to="perfil" className="text-[#b3b3b3]">
             Perfil
           </Link>
           <Link to="grafico" className="text-[#b3b3b3]">

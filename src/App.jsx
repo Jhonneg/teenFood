@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Receitas from "./components/Receitas"
+import Perfil from "./components/Perfil";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         }
       >
         <Route index element={<Home />} />
-        <Route path="receitas" element={<Receitas/>}/>
+        <Route path="receitas" element={<Receitas />} />
+        <Route path="perfil" element={<Perfil/>}/>
       </Route>
     </Routes>
   );
